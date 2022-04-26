@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5434417836001155862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10889614ebea275418bec08aeeef6b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: Gives 10 HP
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,6 +32,7 @@ MonoBehaviour:
     type: 3}
   UsageEffects:
   - {fileID: 1107657640091256493}
+  - {fileID: -5434417836001155862}
 --- !u!114 &1107657640091256493
 MonoBehaviour:
   m_ObjectHideFlags: 0
