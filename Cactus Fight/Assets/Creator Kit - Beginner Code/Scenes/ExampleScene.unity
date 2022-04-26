@@ -89491,12 +89491,12 @@ MonoBehaviour:
   CharacterName: 
   Stats:
     baseStats:
-      health: 20
-      strength: 5
-      defense: 5
-      agility: 5
-      elementalProtection: 00000000000000000000000000000000
-      elementalBoosts: 00000000000000000000000000000000
+      health: 200
+      strength: 50
+      defense: 50
+      agility: 50
+      elementalProtection: 64000000640000006400000064000000
+      elementalBoosts: 64000000640000006400000064000000
   StartingWeapon: {fileID: 11400000, guid: 7f1a957562a85434e80c93859ff367a3, type: 2}
   HitClip:
   - {fileID: 8300000, guid: f8f4ccf89f1c24a45950bc9d619a7448, type: 3}
