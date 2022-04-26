@@ -89488,7 +89488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterName: 
+  CharacterName: William
   Stats:
     baseStats:
       health: 200
@@ -89497,7 +89497,7 @@ MonoBehaviour:
       agility: 50
       elementalProtection: 64000000640000006400000064000000
       elementalBoosts: 64000000640000006400000064000000
-  StartingWeapon: {fileID: 11400000, guid: 7f1a957562a85434e80c93859ff367a3, type: 2}
+  StartingWeapon: {fileID: 11400000, guid: 62615692eb539644ebf9b0d21f4b5d48, type: 2}
   HitClip:
   - {fileID: 8300000, guid: f8f4ccf89f1c24a45950bc9d619a7448, type: 3}
 --- !u!54 &2082409044
@@ -89526,7 +89526,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 50
   m_Acceleration: 999
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -89550,7 +89550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77fa481e19c183b4489be917e1350a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 50
   WeaponLocator: {fileID: 1005896318}
   SpurSoundClips:
   - {fileID: 8300000, guid: daa761ef6c428a344b4858008944ac86, type: 3}
