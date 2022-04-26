@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using CreatorKitCode;
 
 public class SpawnerSample : MonoBehaviour
@@ -9,21 +9,16 @@ public class SpawnerSample : MonoBehaviour
 
     void Start()
     {
-        int angle = 15;
-        Vector3 spawnPosition = transform.position;
+        SpawnPotion(0);
+        SpawnPotion(45);
+        SpawnPotion(90);
+        SpawnPotion(135);
+    }
 
+    void SpawnPotion(int angle)
+	{
         Vector3 direction = Quaternion.Euler(0, angle, 0) * Vector3.right;
-        spawnPosition = transform.position + direction * radius;
-        Instantiate(ObjectToSpawn, spawnPosition, Quaternion.identity);
-
-        angle = 55;
-        direction = Quaternion.Euler(0, angle, 0) * Vector3.right;
-        spawnPosition = transform.position + direction * radius;
-        Instantiate(ObjectToSpawn, spawnPosition, Quaternion.identity);
-
-        angle = 95;
-        direction = Quaternion.Euler(0, angle, 0) * Vector3.right;
-        spawnPosition = transform.position + direction * radius;
+        Vector3 spawnPosition = transform.position + direction * radius;
         Instantiate(ObjectToSpawn, spawnPosition, Quaternion.identity);
     }
 }
